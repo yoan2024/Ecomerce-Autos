@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { handleSignUp } from "../utils/signUp";
+import { handleSignUp } from "../utils/SignUp";
 import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
