@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { usePed } from "../context/pedPagado";
 
-const PedPagado = () => {
+const PedidoPagado = () => {
   const { pedido, setPedido } = usePed();
   const usuario = pedido[0];
   return (
@@ -32,4 +32,4 @@ const PedPagado = () => {
   );
 };
 
-export default PedPagado;
+export default PedidoPagado;

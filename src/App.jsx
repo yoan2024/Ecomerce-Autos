@@ -7,14 +7,14 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import PerfilUsuario from "./pages/PerfilUsuario";
-import PedPagado from "./pages/pedPagado";
+import PedidoPagado from "./pages/PedidoPagado";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/pedpagado" element={<PedPagado />} />
+        <Route path="/pedpagado" element={<PedidoPagado />} />
         <Route path="/" element={<Home />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/cars/:id" element={<CarDetails />} />
