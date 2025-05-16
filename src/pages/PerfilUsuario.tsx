@@ -63,6 +63,8 @@ const PerfilUsuario = () => {
             name: name,
             email: currentUser.email,
             password: currentUser.password,
+            direction: currentUser.direction,
+            telefono: currentUser.telefono,
           },
         ];
 
@@ -87,6 +89,8 @@ const PerfilUsuario = () => {
             name: currentUser.name,
             email: email,
             password: currentUser.password,
+            telefono: currentUser.telefono,
+            direction: currentUser.direction,
           },
         ];
 
